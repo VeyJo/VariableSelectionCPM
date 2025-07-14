@@ -17,7 +17,7 @@ source("1_DataGeneration/genData_functions.R")
 #--------------------------#
 
 # set scenario parameters
-reps <- 1       # number of repetitions
+reps <- 500       # number of repetitions
 compl <- c("A", "B", "C", "D")   
 R2 <- c(0.3, 0.5, 0.8) 
 n <- c(100, 250, 500, 1000)
